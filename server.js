@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: ["https://books-frontend-pink.vercel.app"], // your frontend domain
+    origin: ["https://books-frontend-pink.vercel.app"], // FE frontend domein
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true
 }));
